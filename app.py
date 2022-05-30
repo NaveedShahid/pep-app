@@ -1,5 +1,4 @@
-from helpers.spans import pep_matches_top_1, spanss, tmp_fn
-from qa import ask_question, get_multi_ner, check_pep, why_pep
+
 import spacy_streamlit
 
 import streamlit as st
@@ -11,7 +10,8 @@ import pandas as pd
 # from transformers import pipeline
 # from torch.utils.data import Dataset, DataLoader
 
-
+from helpers.spans import pep_matches_top_1, spanss, tmp_fn
+from qa import ask_question, get_multi_ner, check_pep, why_pep
 # from ner import get_ner, get_named_entities, name_match, name_match_single
 
 # model_name = "mirbostani/bert-base-uncased-finetuned-newsqa"

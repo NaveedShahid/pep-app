@@ -1,17 +1,17 @@
-from transformers import AutoTokenizer, AutoModelForTokenClassification
+# from transformers import AutoTokenizer, AutoModelForTokenClassification
 import pandas as pd 
 import nltk
-import tqdm
+# import tqdm
 import re
-import json
-from pprint import pprint
-from ipywidgets import HTML
-from IPython.core.display import display, HTML
+# import json
+# from pprint import pprint
+# from ipywidgets import HTML
+# from IPython.core.display import display, HTML
 import unicodedata
 from thefuzz import fuzz
 from flair.data import Sentence
 from flair.models import SequenceTagger
-from flair.visual.ner_html import render_ner_html
+# from flair.visual.ner_html import render_ner_html
 
 pep_person_df = pd.read_csv('data/PEP name PERSON.csv', names=['names'])
 tagger = SequenceTagger.load("flair/ner-english-ontonotes-large")

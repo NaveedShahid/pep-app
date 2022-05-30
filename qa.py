@@ -1,10 +1,10 @@
 import numpy as np
 import pandas as pd
-import nltk
-import tqdm
-import spacy
+# import nltk
+# import tqdm
+# import spacy
 from transformers import pipeline
-from torch.utils.data import Dataset
+# from torch.utils.data import Dataset
 
 from helpers.ner import get_ner, get_named_entities, name_match, check_pep, get_multi_ner, Sentence 
 
